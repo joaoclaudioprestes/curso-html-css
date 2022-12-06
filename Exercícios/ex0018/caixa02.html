@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Grouping Tags - DIVs Semanticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #737373b2;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: antiquewhite;
+            border-radius: 5px;
+            padding: 3px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.413);
+            text-align: center;
+        }
+
+        nav>a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            color: black;
+
+        }
+
+        main {
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+        }
+
+        article {
+            background-color: beige;
+        }
+
+        article>aside {
+            background-color: rgb(251, 251, 234);
+
+        }
+
+        footer {
+            background-color: aliceblue;
+            color: blueviolet;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 20px 0px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        div.bola {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <!--Para criar menu utilizar a tag NAV-->
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Comentar</a>
+            <a href="#">Curtir</a>
+            <a href="#">Visualizar</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Brasil</p>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum pariatur quos praesentium. Sed illo
+                    dicta ipsam recusandae commodi eos cum praesentium assumenda, rerum, facilis quam! Et temporibus
+                    voluptatem asperiores eos autem aspernatur eius reprehenderit illum quidem ex placeat, neque
+                    deleniti deserunt commodi velit adipisci cum numquam. Reiciendis praesentium expedita at
+                    laboriosam
+                    unde dolore maiores optio tenetur quos ipsam corporis, quibusdam quis doloremque repellendus,
+                    veritatis magnam laborum in consequuntur. Maiores repellat eligendi et hic placeat sequi nemo
+                    voluptatibus, sed nisi quidem? Exercitationem consequatur beatae, iusto nostrum facere harum
+                    rem,
+                    eum pariatur non adipisci iste sint totam in impedit magni eos aspernatur perferendis molestiae
+                    quasi? Nobis omnis inventore totam fugit dolore necessitatibus eum nihil incidunt quaerat.
+                    Delectus,
+                    natus? Ea temporibus fugiat beatae voluptatibus voluptates aut cumque? Necessitatibus.</p>
+                <aside>Escrito por João C. Prestes</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Desenvolvido por joão</strong></p>
+    </footer>
+    <div class="bola">
+        <p></p>
+    </div>
+</body>
+
+</html>
